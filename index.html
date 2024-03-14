@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link id="theme" rel="stylesheet" href="css/light.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="icon" href="images/efruct-logo-simple-removebg-preview.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <title>EFruct Moldova</title>
+</head>
+
+<body>
+    <header id="header">
+        <img class="logo" src="images/efruct-logo-simple-removebg-preview.png">
+        <navbar id="navbar">
+            <a class="meniu" href="index.html" onclick="mobileMenuRefresh();">Acasă</a>
+            <a class="meniu" href="#sectiune-despre" onclick="mobileMenuRefresh();">Despre</a>
+            <a class="meniu" href="#sectiune-poduse-efruct" onclick="mobileMenuRefresh();">Produse</a>
+            <a class="meniu" href="pages/contacte.html" onclick="mobileMenuRefresh();">Contacte</a>
+            <a class="meniu" href="#sectiune-faq" onclick="mobileMenuRefresh();">Întrebări</a>
+
+            <label class="schimba-tema">
+                <ion-icon class="meniu" name="moon-outline" id="buton-tema" onclick="toggleTheme()"></ion-icon>
+            </label>
+
+        </navbar>
+
+        <i id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"></i>
+    </header>
+
+    <main>
+        <section id="index">
+            <div class="index-info">
+
+                <div class="intro-content">
+                    <h1>EFruct</h1>
+                    <h4>FRUCTE USCATE 100% NATURALE</h4>
+
+                   
+                </div>
+
+                <div class="custom-shape-divider-bottom-1683301408">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                        preserveAspectRatio="none">
+                        <path
+                            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                            opacity=".25" class="shape-fill"></path>
+                        <path
+                            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                            opacity=".5" class="shape-fill"></path>
+                        <path
+                            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                            class="shape-fill"></path>
+                    </svg>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="sectiune-despre">
+            <div id="titlu-and-border-section-despre">
+                <h1 class="titlu-sectiune-sau-pagina">Despre noi</h1>
+                <div class="border"></div>
+                <div class="border-2"></div>
+            </div>
+            <p class="p-despre">Intreprinderea noastră se specializează în producția și comercializarea de fructe uscate 100% naturale, fără adaosuri de zahăr, conservanți, coloranți sau aromatizatori. Fabricate în Republica Moldova, produsele noastre sunt rezultatul unei atente selecții a celor mai proaspete și calitative fructe, care sunt apoi uscate în mod natural pentru a păstra aroma și nutrienții lor. Ne dedicăm sănătății și bunăstării clienților noștri, oferindu-le produse autentice, sănătoase și delicioase, care să aducă o bucurie gustativă inegalabilă.</p>
+
+            <div class="container-despre">
+                <div class="column" data-aos="fade-right">
+                    <img src="images/efruct-despre-1.png" alt="Image 1">
+                    <h2>Învingător al Concursului Notorium</h2>
+                    <p>Trofeul obținut în cadrul Concursului Mărcilor Recunoscute Notorium reprezintă un simbol al excelenței și al recunoașterii în industria fructelor uscate. Acest trofeu poate fi considerat o dovadă tangibilă a angajamentului și dedicării intreprinderii față de calitatea și inovația produselor noastre.</p>
+                </div>
+                <div class="column" data-aos="fade-left">
+                    <img src="images/efruct-despre-2.png" alt="Image 2">
+                    <h2>Calitate superioară</h2>
+                    <p> Intreprinderea noastră de fructe uscate se poate mandri cu calitatea superioară a produselor sale, demonstrată prin câștigarea titlului de învingător al Concursului Mărcilor Recunoscute Notorium. Această recunoaștere atestă angajamentul nostru față de calitate și excelență în producție.
+                    </p>
+                </div>
+                <div class="column" data-aos="fade-right">
+                    <img src="images/efruct-despre-3.png" alt="Image 3">
+                    <h2>Autenticitate</h2>
+                    <p>Produsele sunt 100% naturale, fără adăugarea de zahăr, conservanți, coloranți sau aromatizatori. Această trasatură subliniază angajamentul nostru față de sănătatea consumatorilor și oferă un plus de încredere în autenticitatea și puritatea produselor noastre.<br><br></p>
+                </div>
+                <div class="column" data-aos="fade-left">
+                    <img src="images/efruct-despre-4.png" alt="Image 4">
+                    <h2>Longevitate și experiență</h2>
+                    <p>Fondată în 2007, intreprinderea noastră de fructe uscate are o istorie solidă și o experiență considerabilă în industrie. Această longevitate și experiență pot fi văzute ca un indicator al stabilității și fiabilității lor în vinderea produselor de calitate și satisfacerea nevoilor clienților de-a lungul timpului.</p>
+                </div>
+            </div>
+        </section>
+
+        <div id="titlu-and-border-section-colaj-img" class="titlu-and-border">
+            <h1 class="titlu-sectiune-sau-pagina">Produse</h1>
+            <div class="border"></div>
+            <div class="border-2"></div>
+
+        </div>
+
+        <p class="p-despre" id="sectiune-poduse-efruct"> Comandă online direct de la producător ⚜️EFruct Moldova⚜️
+            sau sună  <a href="tel:0602 32 777">060232777</a> ( viber, whatsapp)</p>
+
+        <div class="container-despre">
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-1.jpg" alt="Image 1">
+                <h2>Mix de fructe uscate</h2>
+                <p>🎁Cadoul perfect pentru Mame, iubite, colege de birou și profesoare!
+                    Un mix de fructe uscate pentru momente dulci și pline de rafinament! 
+                    Dăruiește un mărțișor sănătos!❤️🤍
+                    </p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-2.jpg" alt="Image 1">
+                <h2>Mix de fructe uscate 2</h2>
+                <p> Un mix de fructe uscate pentru momente dulci și pline de rafinament! 
+                    Dăruiește un mărțișor sănătos!🎁Cadoul perfect pentru Mame, iubite, colege de birou și profesoare!
+                   ❤️🤍</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-3.jpg" alt="Image 1">
+                <h2>Mix</h2>
+                <p>📌Adaugă fructele uscate în rutina ta zilnică și bucură-te de aceste delicii naturale ce îți oferă o bombă de vitamine în fiecare mușcătură. 😉
+                </p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-4.jpg" alt="Image 1">
+                <h2>🌿Fructe uscate</h2>
+                <p>🌿 Descoperă secretele gustului autentic a fructelor uscate de la EFruct Moldova.
+                    O alegere delicioasă și sănătoasă pentru o zi plină de energie pozitivă.😉</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-5.jpg" alt="Image 1">
+                <h2>🍎Mere Uscate Rondele</h2>
+                <p>Dulceața în formă pură! 
+                    🍎Mere Uscate Rondele fără coajă și camera de semințe🍎
+                    Ideale pentru o gustare rapidă și sănătoasă!</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-6.jpg" alt="Image 1">
+                <h2>Ceai de Păducel! ☕❄️</h2>
+                <p>Susține-ți imunitatea și bucură-te de iarnă cu Ceai de Păducel! ☕❄️
+                    Înfruntă sezonul rece într-un mod delicios!
+                     📌Ceaiul de Păducel nu doar îți încălzește sufletul, ci și susține sistemul tău imunitar. 
+                    O combinație de gust rafinat și beneficii pentru sănătate în fiecare înghițitură.😉</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-7.jpg" alt="Image 1">
+                <h2>🍎Chipsuri de Mere🍎</h2>
+                <p>🍎Chipsuri de Mere🍎
+                    CROCANTE- gustul delicios al merelor.
+                    O gustare perfectă pentru un stil de viață sănătos!🥰</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-8.jpg" alt="Image 1">
+                <h2>🍐Pere Uscate Tăiate🍐</h2>
+                <p>🍐Pere Uscate Tăiate🍐
+                    O gustare sănătoasă, delicioasă și o bună alternativă la dulciuri. 
+                    Comandă acum direct de la producător ⚜️EFruct Moldova⚜️</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-9.jpg" alt="Image 1">
+                <h2>🍎Mere Uscate Cuburi</h2>
+                <p>🍎Mere Uscate Cuburi fără coajă și camera de semințe🍎
+                    ✅CROCANTE- gustarea ideală pentru tine și familia ta!
+                    Comandă acum direct de la producător ⚜️EFruct Moldova⚜️</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-10.jpg" alt="Image 1">
+                <h2>🍑Piersici Uscate</h2>
+                <p>Doar noi îți oferim cele mai delicioase și aromate 
+                    🍑Piersici Uscate Jumătăți🍑
+                    ‼️Fără zahăr adăugat.</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-11.jpg" alt="Image 1">
+                <h2> Măceșe Uscate</h2>
+                <p>Cel mai frumos weekend este cel petrecut alături de oamenii dragi!🥰
+                    Cu un ceai din Măceșe Uscate de la EFruct Moldova.😉</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-12.jpg" alt="Image 1">
+                <h2>🍐PERE USCATE RONDELE</h2>
+                <p>Mult așteptate-le 🍐PERE USCATE RONDELE fără camera de semințe🍐
+                    Dulci, aromate, dar FĂRĂ ZAHĂR 🥰
+                    Alintă-ți papilele gustative!😉</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-13.jpg" alt="Image 1">
+                <h2>🔹Prune Uscate fără Sâmburi🔹</h2>
+                <p>🔹Prune Uscate fără Sâmburi🔹
+                    ‼️ Fără fum, zahăr, conservanți, coloranți.
+                    📌Asigură o digestie sănătoasă și detoxifică organismul!</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-14.jpg" alt="Image 1">
+                <h2>🔹Dulceață de Prune🔹</h2>
+                <p>🔹Dulceață de Prune🔹
+                    O puteți servi cu pâine proaspătă, adăuga în tarte, checuri, terciuri și clătite.😋</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-15.jpg" alt="Image 1">
+                <h2>🍒Vișine Uscate fără Sâmburi🍒</h2>
+                <p>Bucură-te de o aromă intensă cu gust dulce acrișor a
+                    🍒Vișinelor Uscate fără Sâmburi🍒
+                    Un produs Natural, perfect pentru gustări rapide și sănătoase!🥰
+                    📌Fiecare vișină este plină de nutrienți și fibre, ajutând la menținerea sănătății corpului și a inimii tale.</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-16.jpg" alt="Image 1">
+                <h2>Păducelul</h2>
+                <p>Păducelul - cel mai bun prieten al inimii!❤️
+                    P.S. Anume așa arată Păducelul pe care îl colectează  EFruct pentru a fi uscat.</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-17.jpg" alt="Image 1">
+                <h2>Prune Uscate Jumătăți🙃</h2>
+                <p>Prune Uscate Jumătăți🙃
+                    Perfecte pentru gustarile rapide în timpul zilei, cât și seara la o cană de ceai in sânul familiei 🥰</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-18.jpg" alt="Image 1">
+                <h2>Galbenă gutuie</h2>
+                <p>…”Galbenă gutuie
+                    Dulce, amăruie…”</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-19.jpg" alt="Image 1">
+                <h2>Cireșe</h2>
+                <p>Cireșe Uscate Fără Sâmburi</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-20.jpg" alt="Image 1">
+                <h2>Caise</h2>
+                <p>Caise Uscate Jumătăți</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-21.jpg" alt="Image 1">
+                <h2>Mere Uscate</h2>
+                <p>Mere Uscate Rondele Fără Coajă și Cameră Seminceră</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-22.jpg" alt="Image 1">
+                <h2>Pere</h2>
+                <p>Pere Uscate Tăiate</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-23.jpg" alt="Image 1">
+                <h2>Măceșe</h2>
+                <p>Măceșe Uscate</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-24.jpg" alt="Image 1">
+                <h2>Vișine</h2>
+                <p>Vișine Uscate Fără Sâmburi</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-25.jpg" alt="Image 1">
+                <h2>Păducelul</h2>
+                <p>Păducelul-Una dintre cele mai eficiente plante din "farmacia naturii".</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-26.jpg" alt="Image 1">
+                <h2>🌱Cimbrul 🌱</h2>
+                <p>🌱Cimbrul 🌱
+                    📌Se folosește ca și condiment pentru a da savoare preparatelor alimentare.
+                    📌Este și un adevărat antibiotic natural.
+                    O cana cu ceai de cimbru: 
+                    🎯CALMEAZĂ PROBLEMELE RESPIRATORII
+                    🎯PREVINE INDIGESTIA
+                    🎯SCADE TENSIUNEA ARTERIALĂ
+                    🎯ÎNTĂREȘTE SISTEMUL IMUNITAR
+                    🎯REDUCE RETENȚIA DE APĂ</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-27.jpg" alt="Image 1">
+                <h2>🍎Mare Uscate Tăiate🍎</h2>
+                <p>🍎Mare Uscate Tăiate🍎
+                    ✅Pot fi consumate direct sau pentru prepararea compoturilor. 
+                    📌Cojile de mere conțin acid ursolic, care crește masa mușchilor scheletici și a țesutului adipos brun.</p>
+            </div>
+
+            <div class="column" data-aos="fade-right">
+                <img src="images/efruct-produs-28.jpg" alt="Image 1">
+                <h2>🍑Piersici Uscate🍑</h2>
+                <p>Aromate🥰
+                    🍑Piersici Uscate Jumătăți🍑
+                    Un deliciu pentru cei ce apreciază alimentele sănătoase!</p>
+            </div>
+
+            
+           
+        </div>
+
+
+
+
+
+        
+
+        <br>
+
+        </section>
+
+        <section class="sectiune-recenzii">
+
+            <div class="grup-carduri-recenzii">
+                <div class="interior-recenzii">
+                    <h1 class="titlu-sectiune-sau-pagina">Recenzii</h1>
+                    <div class="border"></div>
+                    <div class="border-2"></div>
+
+                    <div class="row">
+                        <div data-aos="zoom-in" class="col">
+                            <div class="card-recenzii">
+                                <img src="images/p1.jpg" alt="">
+                                <div class="name">Mariana Soiu</div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+
+                                <p>
+                                    Ce bune sunt...Eu le folosesc în iaurt,prăjituri,în stare naturală,etc.Le recomand.
+                                </p>
+                                <br></br><br></br><br>
+                            </div>
+                        </div>
+
+                        <div data-aos="zoom-in" class="col">
+                            <div class="card-recenzii">
+                                <img src="images/p2.jpg" alt="">
+                                <div class="name">Svetlana Antocel</div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+
+                                <p>
+                                    Buna! Va multumesc pentru fructele D- stre, cu adevarat sunt foarte gustoase si comanda a venit super rapid. O zi buna Va doresc si spor in toate!!!!!!
+                                <br><br><br></p>
+                            </div>
+                        </div>
+
+                        <div data-aos="zoom-in" class="col">
+                            <div class="card-recenzii">
+                                <img src="images/p3.jpg" alt="">
+                                <div class="name">Natalia Plesca Dragancea</div>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+
+                                <p>
+Foarte bunute toate produsele. Si cipsurile sunt foarte bune 🙂
+                                </p><br><br><br><br><br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="sectiune-faq">
+            <h1 class="titlu-sectiune-sau-pagina">Întrebări frecvente</h1>
+            <div class="border"></div>
+            <div class="border-2"></div>
+
+            <div class="container-intrebare-faq">
+                <div class="intrebare-faq">
+                    <button>
+                        <span>Ce tipuri de fructe uscate oferiți?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p> Oferim o gamă largă de fructe uscate naturale, printre care se numără mere, pere, prune, caise, smochine și multe altele.</p>
+                </div>
+
+                <div class="intrebare-faq">
+                    <button>
+                        <span>De unde provin fructele pe care le folosiți pentru produsele dumneavoastră?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Folosim fructe locale din Moldova, culese proaspete din livezi și grădini locale.</p>
+                </div>
+
+                <div class="intrebare-faq">
+                    <button>
+                        <span>Aveți produse organice sau certificate ecologic?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Da, avem opțiuni organice și certificate ecologic pentru clienții care caută produse naturale și sustenabile.</p>
+                </div>
+
+                <div class="intrebare-faq">
+                    <button>
+                        <span>Care este procesul de uscare al fructelor?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Fructele sunt uscate cu grijă la temperaturi scăzute pentru a păstra cât mai mult din nutrienții și aroma lor naturală.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="border"></div>
+        <div class="border-2"></div>
+        <span>
+
+            <a href="https://www.instagram.com/efructmoldova/?hl=en"><img class="retele"
+                    src="images/inst.logo.png"></a>
+
+            <a href="https://www.facebook.com/efructmoldova"><img class="retele" src="images/facebook.logo.png"></a>
+
+            <a href="tel:0602 32 777"><img class="retele" src="images/viber.logo.png"></a>
+
+            <p>EFruct Moldova - Chișinău © 2023 Toate drepturile rezervate.</p>
+
+
+        </span>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

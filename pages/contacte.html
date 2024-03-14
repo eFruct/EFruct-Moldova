@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link id="theme" rel="stylesheet" href="../css/light.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="icon" href="../images/efruct-logo-simple-removebg-preview.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+
+    <title>EFruct Moldova</title>
+</head>
+<body>
+    <header id="header">
+        <img class="logo" src="../images/efruct-logo-simple-removebg-preview.png">
+        <navbar id="navbar">
+            <a class="meniu" href="../index.html" onclick="mobileMenuRefresh();">Acasă</a>
+            <a class="meniu" href="../index.html" onclick="mobileMenuRefresh();">Despre</a>
+            <a class="meniu" href="../index.html" onclick="mobileMenuRefresh();">Produse</a>
+            <a class="meniu" href="pages/contacte.html" onclick="mobileMenuRefresh();">Contacte</a>
+            <a class="meniu" href="../index.html" onclick="mobileMenuRefresh();">Întrebări</a>
+
+            <label class="schimba-tema">
+                <ion-icon class="meniu" name="moon-outline" id="buton-tema" onclick="toggleTheme()" ></ion-icon>
+            </label>
+         
+        </navbar>
+
+        <i id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"></i>
+    </header>
+   
+    <main>
+        <div class="container-contact-form">
+            <div class="form">
+              <div class="contact-info">
+                <h3 class="title">Date de contact</h3>
+                <p class="text">
+                  Pentru mai multe informații contactați-ne:
+                </p>
+      
+                <div class="info">
+                  <div class="information">
+                    <img src="../images/location.png" class="icon" alt="" />
+                    <p>Chisinau, Moldova</p>
+                  </div>
+                  <div class="information">
+                    <img src="../images/email.png" class="icon" alt="" />
+                    <p>efruct.md@gmail.com</p>
+                  </div>
+                  <div class="information">
+                    <img src="../images/phone.png" class="icon" alt="" />
+                    <p>0602 32 777</p>
+                  </div>
+                </div>
+      
+                <div class="social-media">
+                  <p>Rețele de socializare :</p>
+                  <div class="social-icons">
+                    <a href="https://www.facebook.com/efructmoldova">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/efructmoldova/?hl=en">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+      
+                <form action="index.html" autocomplete="off">
+                  <h3 class="title">Contactează-ne</h3>
+                  <div class="input-container">
+                    <input placeholder="Nume" type="text" name="name" class="input" />
+                  </div>
+                  <div class="input-container">
+                    <input placeholder="Email" type="email" name="email" class="input" />
+                  </div>
+                  <div class="input-container">
+                    <input placeholder="Telefon" type="tel" name="phone" class="input" />
+                  </div>
+                  <div class="input-container textarea">
+                    <textarea placeholder="Mesaj" name="message" class="input"></textarea>
+                  </div>
+                  <input type="button" value="Trimite" class="btn" />
+                </form>
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <footer>
+      <div class="border"></div>
+            <div class="border-2"></div>
+        <span>
+
+            <a  href="https://www.instagram.com/efructmoldova/?hl=en"><img class="retele" src="../images/inst.logo.png"></a>
+
+            <a  href="https://www.facebook.com/efructmoldova"><img class="retele" src="../images/facebook.logo.png"></a>
+
+            <a  href="tel:0602 32 777"><img class="retele" src="../images/viber.logo.png"></a>
+
+            <p>EFruct Moldova - Chișinău © 2023 Toate drepturile rezervate.</p>
+
+
+        </span>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/script-contact-form.js"></script>
+</body>
+</html>
